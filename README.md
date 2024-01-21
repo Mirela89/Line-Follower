@@ -1,4 +1,7 @@
 # Line-Follower
+This project is part of the Introduction to Robotics course, undertaken during the third-year studies at the Faculty of Mathematics and Computer Science, University of Bucharest. It was fulfilled in a team of 3, La Furia Roja, alongside [@MariusAlexandru358](https://github.com/MariusAlexandru358) and [@alexia-maria](https://github.com/alexia-maria).
+
+
 A line follower robot is a device with the primary function of autonomously tracking a predefined path marked on the ground. 
 
 It has a reflectance sensor underneath, acting like its eyes, that constantly watches for a specific color or contrast, usually a dark line on a lighter surface. As the robot moves along, the sensor communicates with its brain, letting it know where the line is. If the sensor sees the line on the left, the robot adjusts to the left; if on the right, it adjusts to the right. This communication helps the robot make quick decisions to keep itself right on the path, using its wheels to make precise adjustments. 
@@ -23,10 +26,12 @@ The motors' speed is dynamically controlled using a PID (Proportional-Integral-D
 # Setup
 The chassis was designed and built by us, using a material similar to carboard which can be found in any art shop. The board was cut so as all the components could fit on it. We also built a small "pocket" for the battery, in order to insert/remove it easily.
 <p align="center">
-  <img src="snake_game_project/circuit.jpeg" alt="Circuit" width="500">
+  <img src="lineF/chassis.jpeg" alt="Chassis" width="500">
 </p>
 
 # Functionality
 For the grading we had 3 tries, meaning the robot had to complete 3 consecutive laps on the final track. In order to get the maximum grade, the track had to be completed in less than 20 seconds. In the video linked below is displayed the first lap, where the robot completed the track in aprox. 17 seconds. On the second lap, the robot completed the track faster, scoring a time of aprox. 16 seconds.
 
 [Watch the video](https://www.youtube.com/shorts/_sgrDiwM9yc) to see this functionality in action.
+
+# [Code](https://github.com/Mirela89/Line-Follower/blob/main/lineF/lineF.ino)
