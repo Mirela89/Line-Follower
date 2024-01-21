@@ -4,7 +4,7 @@ This project is part of the Introduction to Robotics course, undertaken during t
 
 A line follower robot is a device with the primary function of autonomously tracking a predefined path marked on the ground. 
 
-It has a reflectance sensor underneath, acting like its eyes, that constantly watches for a specific color or contrast, usually a dark line on a lighter surface. As the robot moves along, the sensor communicates with its brain, letting it know where the line is. If the sensor sees the line on the left, the robot adjusts to the left; if on the right, it adjusts to the right. This communication helps the robot make quick decisions to keep itself right on the path, using its wheels to make precise adjustments. 
+It has a reflectance sensor underneath, acting as its' eyes, that constantly watches for a specific color or contrast, usually a dark line on a lighter surface. As the robot moves along, the sensor communicates with its brain, letting it know where the line is. If the sensor sees the line on the left, the robot adjusts to the left; if on the right, it adjusts to the right. This communication helps the robot make quick decisions to keep itself right on the path, using its wheels to make precise adjustments. 
 
 # How it works
 The line follower incorporates an automatic sensor calibration feature for precise navigation. The calibration process involves the robot moving left and right along its axis, responding to the sensor readings.
@@ -24,7 +24,7 @@ The motors' speed is dynamically controlled using a PID (Proportional-Integral-D
 | Other components | zip ties, jumper wires (M/M & F/M), ball caster, chassis |
 
 # Setup
-The chassis was designed and built by us, using a material similar to carboard which can be found in any art shop. The board was cut so as all the components could fit on it. We also built a small "pocket" for the battery, in order to insert/remove it easily.
+The chassis was designed and built by our team, using a material similar to carboard which can be found in any art shop. The board was cut as to fit all the components on it. We also built a small "pocket" for the battery, in order to insert/remove it easily.
 <p align="center">
   <img src="lineF/chassis.jpeg" alt="Chassis" width="500">
 </p>
