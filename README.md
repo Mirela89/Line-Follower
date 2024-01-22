@@ -1,5 +1,5 @@
 # Line-Follower
-This project is part of the Introduction to Robotics course, undertaken during the third-year studies at the Faculty of Mathematics and Computer Science, University of Bucharest. It was fulfilled in a team of 3, La Furia Roja, alongside [@AlexandruMarius358](https://github.com/MariusAlexandru358) and [@alexia-maria](https://github.com/alexia-maria).
+This project is part of the Introduction to Robotics course, undertaken during the third-year studies at the Faculty of Mathematics and Computer Science, University of Bucharest. It was fulfilled in a team of 3, La Furia Roja, alongside [@MariusAlexandru358](https://github.com/MariusAlexandru358) and [@alexia-maria](https://github.com/alexia-maria).
 
 
 A line follower robot is a device with the primary function of autonomously tracking a predefined path marked on the ground. 
